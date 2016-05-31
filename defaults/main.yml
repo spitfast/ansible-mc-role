@@ -1,3 +1,5 @@
 ---
 
 mc_set_as_default_editor: true
+mc_users_home_path:
+  - "/root"

@@ -1,6 +1,6 @@
 galaxy_info:
   author: Gordon Shumway
-  description: Install Midnight Commander and set mcedit as default editor.
+  description: Install Midnight Commander and set mcedit as default editor for specified users.
   license: MIT
 
   min_ansible_version: 1.9
