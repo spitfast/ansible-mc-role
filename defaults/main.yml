@@ -1,2 +1,3 @@
 ---
-# defaults file for mc
+
+mc_set_as_default_editor: true

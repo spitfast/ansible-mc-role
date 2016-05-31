@@ -1,2 +1,7 @@
 ---
-# tasks file for mc
+
+- include: apt.yml
+  tags: [mc]
+
+- include: mc.yml
+  tags: [mc]

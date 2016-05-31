@@ -1,0 +1,8 @@
+---
+
+- name: Install mc
+  become: true
+  apt: pkg=mc state=present
+
+- name: Set mcedit as default editor
+  when: mc_set_as_default_editor == true
