@@ -1,9 +1,5 @@
 ---
 
-- name: Add apt repository
-  apt_repository: repo='ppa:ondrej/php'
-  become: true
-
 - name: Update apt cache
   apt: update_cache=yes
   become: true
